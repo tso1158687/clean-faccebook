@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Make Facebook Great Again",
+  "version": "1.0",
+  "description": "Make Facebook Great Again by removing the news feed and other distractions.",
+  "permissions": ["activeTab", "scripting"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.facebook.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
