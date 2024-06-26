@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Make Facebook Great Again",
+  "name": "Clean Facebook",
   "version": "1.0",
-  "description": "Make Facebook Great Again by removing the news feed and other distractions.",
+  "description": "Automatically removes unnecessary navigation and banner elements on Facebook for a cleaner, more focused browsing experience.",
   "permissions": ["activeTab", "scripting"],
   "content_scripts": [
     {
