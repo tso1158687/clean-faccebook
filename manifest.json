@@ -3,7 +3,7 @@
   "name": "Clean Facebook",
   "version": "1.0",
   "description": "Automatically removes unnecessary navigation and banner elements on Facebook for a cleaner, more focused browsing experience.",
-  "permissions": ["activeTab", "scripting"],
+  "permissions": [],
   "content_scripts": [
     {
       "matches": ["*://*.facebook.com/*"],
